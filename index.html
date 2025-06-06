@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>3-numbers</title>
+		<script src="script1.js"></script>
+	</head>
+	<style>
+		body{
+			font-family:sans-serif;
+		}
+		input{
+			margin-bottom:4px;
+		}
+		button{
+			width:365px;
+		}
+		h1{
+			
+		}
+		.mainDiv{
+			text-align:center;
+			width:500px;
+			margin:auto;
+			height:200px;
+		}
+	</style>
+	<body>
+		<div class="mainDiv">
+			<h1>3-numbers game</h1>
+			<div>
+				<input placeholder="Pl. 1 Name" id="pOneName"></input>
+				<input placeholder="1, 2, 3..." type="number" id="pOneNum"></input>
+			</div>
+			<div>
+				<input placeholder="Pl. 2 Name" id="pTwoName"></input>
+				<input placeholder="1, 2, 3..." type="number" id="pTwoNum"></input>
+			</div>
+			<div>
+				<input placeholder="Pl. 3 Name" id="pThreeName"></input>
+				<input placeholder="1, 2, 3..." type="number" id="pThreeNum"></input>
+			</div>
+			<button onclick="submit()">Submit</button>
+			<label id="lastNumLabel"></label>
+		</div>
+	</body>
+</html>
